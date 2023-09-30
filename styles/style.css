@@ -24,9 +24,9 @@ html {
   display: flex;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", "Arial", sans-serif;
   font-size: 18px;
-  background-color: #060202;
+  background-color: #1B1919;
   inline-size: 1200px;
   block-size: 100%;
 }
@@ -52,15 +52,12 @@ ol {
 
 .visually-hidden{
   position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
+  inline-size: 1px;
+  block-size: 1px;
   overflow: hidden;
   clip: rect(0 0 0 0);
+  clip-path: inset(50%);
   white-space: nowrap;
-  clip-path: inset(100%);
 }
 
 .content {
