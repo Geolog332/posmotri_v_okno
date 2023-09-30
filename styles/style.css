@@ -26,7 +26,7 @@ html {
   color: #fff;
   font-family: "Fira Sans Condensed", "Arial", sans-serif;
   font-size: 18px;
-  background-color: #1B1919;
+  background-color: #1b1919;
   inline-size: 1200px;
   block-size: 100%;
 }
@@ -67,6 +67,8 @@ ol {
   width: 1140px;
   height: 534px;
   margin: auto 30px;
+  inline-size: 1140px;
+  block-size: 534px;
 }
 
 .result__video-container {
@@ -82,6 +84,7 @@ ol {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top right;
 }
 
 .search-form {
