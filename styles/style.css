@@ -137,9 +137,6 @@ ol {
   background-color: transparent;
   cursor: pointer;
   appearance: none;
-}
-
-.search-form__textfield {
   cursor: text;
 }
 
@@ -254,8 +251,9 @@ ol {
 
 .content__card-link {
   display: block;
+  color: inherit;
   text-decoration: none;
-  background-color: #1b1919;
+  background-color: transparent;
 }
 
 .content__card-link:hover {
@@ -267,6 +265,7 @@ ol {
 
 .content__card-link:active {
   background-color: #545050;
+  text-decoration: none
 }
 
 .content__card-link:focus {
@@ -279,7 +278,7 @@ ol {
 }
 
 .content__card-link_current {
-  background-color: #1b1919;
+  background-color: #545050;
 }
 
 .content__video-card {
@@ -295,17 +294,13 @@ ol {
   width: 200px;
 }
 
-.content__video-card-description-container:active {
-  text-decoration: none;
-}
-
 .content__video-card-title {
   display: flex;
   color: #fff;
   font-family: "Oswald", "Arial", sans-serif;
   font-weight: 700;
   font-size: 30px;
-  line-height: 30px;
+  line-height: 1;
   text-transform: uppercase;
 }
 
@@ -315,7 +310,7 @@ ol {
   font-family: "Fira Sans Condensed", "Arial", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 16.2px;
+  line-height: 0.9;
 }
 
 .content__video-card-thumbnail {
